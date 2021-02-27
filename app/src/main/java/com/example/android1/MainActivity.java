@@ -34,7 +34,7 @@ Button btn_cnx ;
             public void onClick(View v) {
 
                 Intent myintent = new Intent(MainActivity.this,Welcome.class);
-                if (EditText_login.getText().toString().equals("admin") ||
+                if (EditText_login.getText().toString().equals("admin") &&
                         EditText_mdp.getText().toString().equals("admin")  )
             startActivity(myintent);
                 else
