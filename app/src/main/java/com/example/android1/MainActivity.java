@@ -25,8 +25,7 @@ Button btn_cnx ;
 
 
 
-        String a = EditText_login.getText().toString();
-        String b = EditText_mdp.getText().toString();
+        
 
 
         btn_cnx.setOnClickListener(new View.OnClickListener() {
